@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+      - primary meta tags
+    -->
+    <title>Alcapulo Mexican Restaurant</title>
+    <meta name="title" content="Alcapulo Mexican Restaurant">
+    <meta name="description" content="Alcapulo Mexican Restaurant">
+
+    <!-- 
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/svg+xml">
+
+    <!-- 
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+    <!-- 
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+      - preload images
+    -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+</head>
+<body>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden; /* Prevent scrolling on the body */
+        }
+
+        .scroll-container {
+            height: 90%; /* Adjust the height as needed */
+            width: 90%; /* Adjust the width as needed */
+            overflow-y: scroll;
+            overflow-x: hidden;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .center-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        .center-image img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .home-button {
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+    <div class="scroll-container">
+        <a href="index.html" class="home-button">Go to Home Menu</a>
+        <p>Scroll down to view the entire menu</p>
+        <div class="center-image">
+            <img src="./assets/images/Appa.png" alt="Alcapulo Mexican Restaurant">
+        </div>
+
+</body>
+</html>
